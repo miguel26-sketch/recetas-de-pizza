@@ -77,12 +77,6 @@ margin: 30px 0 10px 0;
 border-radius: 10px;
 }
 
-video, iframe {
-    width: 90%;
-    height: auto;
-}
-
-
 iframe {
 border: none;
 border-radius: 10px;
@@ -90,15 +84,6 @@ margin-bottom: 40px;
 margin-top:20px;
 
 }
-
-img, .gif{
-    width: 90%;
-    height: auto;
-    max-width: 300px;
-}
-
-
-
 /* Formulario */
 h2 {
 font-family: "Bungee Spice", cursive;
@@ -170,3 +155,4 @@ transform: scale(1.05);
         margin: 10px 0;
     }
 }
+
