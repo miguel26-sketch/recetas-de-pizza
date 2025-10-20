@@ -86,7 +86,9 @@ video, iframe {
 iframe {
 border: none;
 border-radius: 10px;
-margin: 20px 0 40px 0;
+margin-bottom: 40px;
+margin-top:20px;
+
 }
 
 img, .gif{
@@ -113,7 +115,7 @@ padding: 30px;
 border-radius: 15px;
 display: inline-block;
 text-align: left;
-    width: 95;
+    width: 85;
     margin: 20px auto;
 }
 
