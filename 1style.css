@@ -147,6 +147,8 @@ form {
 @media (max-width: 480px) {
   h1 { font-size: 30px; }
   h2 { font-size: 30px; }
+  a  { font-size: 30px; }
+
   div { margin: 20px; font-size: 14px; }
   video, iframe, img { width: 90%; height: auto; }
 }
@@ -156,4 +158,5 @@ form {
   h1 { font-size: 40px; }
   div { margin: 15px; font-size: 16px; }
 }
+
 
