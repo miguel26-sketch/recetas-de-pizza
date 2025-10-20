@@ -25,11 +25,10 @@ margin-bottom: 34px;
 }
 
 p {
-color:white;
+color: white;
 font-weight: 700;
 text-align: center;
-padding-top: 20px;
-    margin-bottom:40px;
+padding-top: 10px;
 font-family: merienda, sans-serif;
 font-size: 15px;
 filter: brightness(1.2) contrast(1.05) saturate(1.10);
@@ -77,33 +76,17 @@ margin: 30px 0 10px 0;
 border-radius: 10px;
 }
 
-video, iframe {
-    width: 90%;
-    height: auto;
-}
-
-
 iframe {
 border: none;
 border-radius: 10px;
-margin-bottom: 40px;
-margin-top:20px;
-
+margin: 20px 0 40px 0;
 }
-
-img, .gif{
-    width: 90%;
-    height: auto;
-    max-width: 300px;
-}
-
-
 
 /* Formulario */
 h2 {
 font-family: "Bungee Spice", cursive;
 font-weight: 800;
-font-size: 53px;
+font-size: 45px;
 margin-bottom: 20px;
 text-transform: uppercase;
 text-shadow: 0 0 1px rgba(255,0,255,0.6);
@@ -115,8 +98,6 @@ padding: 30px;
 border-radius: 15px;
 display: inline-block;
 text-align: left;
-    width: 85;
-    margin: 20px auto;
 }
 
 label {
@@ -153,20 +134,23 @@ button:hover {
 transform: scale(1.05);
 }
 
-@media (max-width: 480px) {
-    h1 {
-        font-size: 30px;
-    }
-    video, iframe, img {
-        width: 90%;
-        height: auto;
-    }
-    form {
-        width: 95%;
-        padding: 20px;
-    }
-    div a {
-        display: block;
-        margin: 10px 0;
-    }
+
+
+form {
+    width: 90%;
+    margin: 20px auto;
 }
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+  h1 { font-size: 30px; }
+  div { margin: 10px; font-size: 14px; }
+  video, iframe, img { width: 90%; height: auto; }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  h1 { font-size: 40px; }
+  div { margin: 15px; font-size: 16px; }
+}
+
