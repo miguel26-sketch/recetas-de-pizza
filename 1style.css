@@ -1,9 +1,7 @@
 body {
-
+text-align: center;
 margin-top: 60px;
 margin-bottom: 60px;
-margin-left: 60px;
-margin-right:60px;
 background: url("https://images.unsplash.com/photo-1533578448779-71eb335c0d95?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1469") no-repeat center center fixed;
 background-size: cover;
 filter: brightness(1.2) contrast(1.05) saturate(1.10);
@@ -31,25 +29,17 @@ color: white;
 font-weight: 700;
 text-align: center;
 padding-top: 10px;
-padding-bottom:15px;
 font-family: merienda, sans-serif;
 font-size: 15px;
 filter: brightness(1.2) contrast(1.05) saturate(1.10);
 }
 
-.pizza{
- 
-  text-align:left;
-  margin-right:px;
-    margin-left:425px;
-}
-
-
 div {
-text-align:center;
-margin: 30px;
-margin-left: px;
-margin-right:px;
+
+margin: 40px;
+margin-left: 50px;
+margin-right:50px;
+text-align:match-parent;
 font-family: merienda, sans-serif;
 font-weight: 700;
 font-style: italic;
@@ -59,14 +49,10 @@ filter: brightness(1.2) contrast(1.05) saturate(1.10);
 
 /* Enlaces */
 a {
-font-size:20px;
 text-decoration: none;
 font-weight: 800;
 -webkit-font-smoothing: antialiased;
-
-
-text-align-last: center;
-padding:25px;
+margin: 30px 20px;
 font-family: "Bungee Spice", cursive;
 text-shadow: 0 0 1px rgba(255,0,255,0.6);
 transition: all 0.4s ease;
