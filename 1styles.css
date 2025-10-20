@@ -25,7 +25,7 @@ margin-bottom: 34px;
 }
 
 p {
-color: #fcfcfc;
+color: #white;
 font-weight: 700;
 text-align: center;
 padding-top: 20px;
@@ -148,3 +148,4 @@ transform: scale(1.05);
         padding: 20px;
     }
 }
+
