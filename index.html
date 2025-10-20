@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>RECETAS PIZZA </title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link rel="stylesheet" href="1styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<style>
+  
+body {
+background: url("https://images.unsplash.com/photo-1533578448779-71eb335c0d95?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1469") no-repeat center center fixed;
+background-size: cover;
+text-align: center;
+font-family: merienda, sans-serif;
+color: #deff57;
+filter: brightness(1.2) contrast(1.05) saturate(1.10);
+margin-top: 60px;
+}
+
+form {
+background: rgba(0,0,0,0.6);
+display: inline-block;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 0 20px rgba(255,0,255,0.4);
+max-width: 450px;
+width: 90%;
+}
+
+input, textarea {
+width: 90%;
+padding: 10px;
+margin: 10px 0;
+border: none;
+border-radius: 8px;
+background: rgba(255,255,255,0.1);
+color: #deff57;
+font-size: 16px;
+}
+
+input::placeholder, textarea::placeholder {
+color: #fff;
+}
+
+button {
+background: #ff7700;
+color: #310a2e;
+border: none;
+padding: 12px 25px;
+border-radius: 8px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+button:hover {
+background-color: rgba(255, 119, 0, 0.87);
+transform: scale(1.05);
+}
+</style>
+</head>
+<body>
+
+<h1>Recetas de Pizza </h1>
+
+<video width="370" heigth="150" autoplay muted loop>
+<source src="pizza.mp4" type="video/mp4">
+Tu navegador no soporta el video.
+</video>
+
+<p class="recetasP">Recetas para que las prepares en casa. ¡Adiós repartidor!</p>
+
+<div>
+<a href="Pizza-AlEstiloRomano.html">Pizza al estilo romano</a>
+<a href="Pizza%20de%20pollo%20a%20la%20parmesana.html">Pizza de pollo a la parmesana</a>
+<a href="Pizza-de-tocino-alaparrilla.html">Pizza de tocino a la parrilla</a>
+<a href="Pizza-lavash.html">Pizzas lavash</a>
+</div>
+
+<div>
+<a href="Pizza-prosciutto.html">Pizza bianca con Prosciutto</a>
+<a href="Pizza-baguette.html">Pizza baguette</a>
+<a href="Pizza%20de%20pollo%20a%20la%20barbacoa.html">Pizza de pollo a la barbacoa</a>
+<a href="Pizza%20de%20sardinas.html">Pizza de sardinas</a>
+</div>
+
+<img src="giphy-unscreen.gif" width="200px" height="200px">
+<img src="giphy-unscreen.gif" width="200px" height="200px">
+<img src="giphy-unscreen.gif" width="200px" height="200px">
+<img src="giphy-unscreen.gif" width="200px" height="200px">
+
+<div style="margin-top: 40px;">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/crdtrzZj3fo?si=Z_XbwMBX45Unn4YT"
+title="Preparar pizza facil"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen>
+</iframe>
+</div>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/1BYHdXjjufU?si=oZ90MwX6QcVUoIuX"
+title="YouTube video player"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen>
+</iframe>
+
+<h2>Contáctanos</h2>
+<p>¿Tienes una receta o idea para mejorar nuestra web? Escríbenos</p>
+
+<form id="contacto">
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+<label for="email">Correo electrónico:</label>
+<input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+<label for="mensaje">Mensaje:</label>
+<textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
+
+<button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>
