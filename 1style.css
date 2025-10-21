@@ -4,7 +4,7 @@ margin-top: 60px;
 margin-bottom: 60px;
 margin-left: 60px;
 margin-right:60px;
-background: url("https://images.unsplash.com/photo-1533578448779-71eb335c0d95?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1469") no-repeat center center fixed;
+background-color: black;
 background-size: cover;
 filter: brightness(1.2) contrast(1.05) saturate(1.10);
 }
@@ -39,8 +39,9 @@ filter: brightness(1.2) contrast(1.05) saturate(1.10);
 
 .pizza{
  
-  text-align:left;
-  margin-left:33.5%;
+font-family: merienda;
+color:orangered;
+  
    
 }
 
@@ -60,14 +61,11 @@ font-size:20px;
 text-decoration: none;
 font-weight: 800;
 -webkit-font-smoothing: antialiased;
-
-
-text-align-last: center;
-padding:25px;
-font-family: "Bungee Spice", cursive;
+font-family: merienda;
+color:#ff4f00;
 text-shadow: 0 0 1px rgba(255,0,255,0.6);
 transition: all 0.4s ease;
-filter: brightness(1.2) contrast(1.05) saturate(1.10);
+filter: brightness(1.8) contrast(1.1) saturate(1.10);
 }
 
 a:hover {
@@ -136,7 +134,7 @@ font-family: merienda;
 font-size: 16px;
 background-color: #ff5f1f;
 font-weight: bold;
-color: #fd00e9;
+color: #ff5f1f;
 border: none;
 border-radius: 8px;
 cursor: pointer;
@@ -146,6 +144,8 @@ transition: all 0.3s ease;
 button:hover {
 transform: scale(1.05);
 }
+
+
 
 form {
     width: 95%;
