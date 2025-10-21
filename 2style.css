@@ -1,9 +1,8 @@
-
 body
-{   
+{  
     background-color: rgb(0, 0, 0);
     margin:60px 450px;
-    text-align:match-parent;
+    text-align:left;
     font-family: merienda,sans-serif;
     color: #ff8e1c;
     font-size: 14px;
@@ -74,7 +73,7 @@ h2
     color: rgb(255, 245, 116);
     font-size:35px;
     margin-top:2px;
-    margin-bottom:20px;   
+    margin-bottom:20px;  
 }
 
 h3
@@ -90,14 +89,14 @@ p
     margin-right:20px;
     margin-bottom:40px;
     margin-top:30px;
-    
+   
 }
 
 div
 {
   color: rgb(255, 255, 255);
   margin-top:40px;
-  
+ 
 }
 
 ul
@@ -111,7 +110,7 @@ ul
 
 img
 {
-    
+   
     filter: brightness(1.1) contrast(1.05) saturate(1.2);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255,255,255,0.1);
@@ -129,9 +128,13 @@ img:hover {
   a { margin-bottom:10px; font-size: 20px; }
   h2 { font-size: 30px; }
   p { font-size:15px; }
-  div { margin: 20px; font-size: 14px; }
-  video, iframe, img { width: 90%; height: auto; }
-  form { padding:10px; }
+    div, form, video, iframe, img {
+    margin:20px auto;
+    max-width: 90%;
+    text-align: left;
+    }
+    video, iframe, img { width: 90%;height: auto;}
+      form{ padding:10px; }
 }
 
 /* Tablets */
@@ -139,3 +142,4 @@ img:hover {
   h1 { font-size: 40px; }
   div { margin: 15px; font-size: 16px; }
 }   
+
