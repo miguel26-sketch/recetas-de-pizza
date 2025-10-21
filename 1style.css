@@ -14,7 +14,6 @@ font-weight: 800;
 font-size: 53px;
 text-align: center;
 text-transform: uppercase;
--webkit-font-smoothing: antialiased;
 margin-top: 40px;
 margin-bottom: 20px;
 filter: brightness(1.2) contrast(1.05) saturate(1.10);
@@ -147,7 +146,14 @@ transform: scale(1.05);
 
 /* Móviles pequeños */
 @media (max-width: 600px) {
-  h1 { font-size: 29px; }
+  h1 { 
+    font-size: 29px;
+    filter:none;
+    color:papayawhip;
+    font-family:"Bungee Spice", cursive;
+    margin:20px auto;
+    text-align:center;
+  }
   a { margin-bottom:10px; font-size: 20px; }
   h2 { font-size: 27px; }
   p { font-size:15px; }
