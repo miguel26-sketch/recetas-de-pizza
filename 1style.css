@@ -47,7 +47,7 @@ color:orangered;
 
 div {
 text-align:center;
-margin: 30px;
+margin: 33px;
 font-family: merienda, sans-serif;
 font-weight: 700;
 font-style: italic;
@@ -62,9 +62,9 @@ text-decoration: none;
 font-weight: 800;
 -webkit-font-smoothing: antialiased;
 font-family: merienda;
-color:#ff3c00;
+color:#e36d05;
 
-filter: brightness(1.8) contrast(1.5) saturate(1.10);
+filter: brightness(1.1) contrast(1.1) saturate(1.10);
 }
 
 
