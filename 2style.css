@@ -1,7 +1,7 @@
 body
 {  
     background-color: rgb(0, 0, 0);
-    margin:60px 450px;
+    margin:60px 400px;
     text-align:left;
     font-family: merienda,sans-serif;
     color: #ff8e1c;
@@ -153,10 +153,29 @@ img:hover {
       width:95%;
       max-width:360px;
     }
+    
+    table{
+        width:100%;
+        max-width:100%;
+        border-collapse: collapse;
+        display:block;
+        overflow-x:auto;
+    }
+    
+    th, td{
+        font-size: 13px;
+        padding:6px;
+        word-wrap: break-word;
+        text-align:left;
+    }
+
 
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
   h1 { font-size: 40px; }
-    div { margin: 15px; font-size: 16px; }
-}
+  div { margin: 15px; font-size: 16px; }
+}   
+
+
+
 
