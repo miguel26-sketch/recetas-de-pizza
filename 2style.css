@@ -1,162 +1,188 @@
-body
-{  
-    background-color: rgb(0, 0, 0);
-    margin:60px 450px;
-    text-align:left;
-    font-family: merienda,sans-serif;
-    color: #ff8e1c;
-    font-size: 14px;
-    margin-top:38px;  
-   
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Receta de pizza al estilo romano</title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" link href="2style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
 
-tr span
-{
-  color:rgb(255, 243, 90);
-}
+</head>               
 
-a.recetas {
-    font-family: "Bungee Spice", cursive;
-    font-weight: 600;
-    text-decoration: none;
-    color: papayawhip; /* se ve bien sobre fondo oscuro */
-    text-shadow: 0 0 2px rgba(255,0,255,0.2);
-    transition: all 0.3s ease;
-}
-
-
-
-a{
-   color:white;
-   font-family: merienda,sans-serif;
-   font-size: 12px;
-   margin-top:60px;
-   filter: brightness(1.2) contrast(1.05) saturate(1.10);
-}
-
-.titulo-h2
-{
-    margin-top:30px;
-    margin-bottom:30px;
-    color: rgb(255, 245, 116)
-}
-
-.Instrucciones
-{
-    margin-top:10px;
-    color:white;
-}
-
-.Ingredientes-a
-{
-    margin-top:45px;
-    color: white;
-}
-
-.chef
-{
-    margin-top:60px;
-    margin-bottom:25px;
-    color:rgb(255, 245, 116);
-}
-
-h1
-{
-    font-size:50px;
-    font-family:Bungee Spice, sans-serif;
-    margin-top:25px;
-    filter: brightness(1.2) contrast(1.05) saturate(1.10);
-}
-
-h2
-{
-    color: rgb(255, 245, 116);
-    font-size:35px;
-    margin-top:2px;
-    margin-bottom:20px;  
-}
-
-h3
-{
-    color:white;
-    font-size:20px;
-    margin-top:35px;
-}
-
-p
-{
-    font-family:merienda,sans-serif;
-    margin-right:20px;
-    margin-bottom:40px;
-    margin-top:30px;
-   
-}
-
-div
-{
-  color: rgb(255, 255, 255);
-  margin-top:40px;
- 
-}
-
-ul
-{
-    color: rgb(255, 165, 0);
-    padding-bottom:40px;
-    font-family:merienda,sans-serif;
-    font-size: 14px;
-    padding-left:15px;
-}
-
-img
-{
-   
-    filter: brightness(1.1) contrast(1.05) saturate(1.2);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255,255,255,0.1);
-}
-
-img:hover {
-  transform: scale(1.03);
-  transition: 0.4s ease;
-  box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
-}
-
- /* Móviles pequeños */
-@media (max-width: 600px) {
-    body {
-        margin: 20px;
-        font-size: 14px;
-    }  
- 
-    h1 { font-size: 27px; }
-    a { margin-bottom:10px; font-size: 9px; }
-    h2 { font-size: 26px; }
-    p { font-size:14px; }
+<body>
     
-    form, p, ul {
-      margin-left:auto;
-      margin-right: auto;
-      max-width: 95%;
-      text-align: left;
-    }
+    <a class="recetas" href="index.html">&#8592; Recetas de pizza</a>      
     
-   video,div, iframe,table, img {
-      width: 100%;
-      height: auto;
-    }
+    <h1>Pizza al estilo romano</h1>
+    
+    <div>
+    <p>Esta pizza al estilo romano tiene una masa gruesa de fermentación prolongada y es absolutamente deliciosa. Cubierta con salsa preparada, salchicha, pimientos dulces y tres quesos, o con lo que prefieras, querrás prepararla una y otra vez.</p>
+    </div>
+    
+    <img src="https://www.allrecipes.com/thmb/gnm-EiMlzutls7qHCc69U3n7MTQ=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8771243_Roman-Style-Pizza_John-Mitzewich_4x3-5156fcec18e446e7acd4195b97e12467.jpg" alt="Pizza al estilo romano" width="425px">
+    
+    <div style=
+           "width: 95%;
+            border-collapse: collapse;
+            border-top:7px solid rgba(255, 165, 0, 0.85);
+            border-left:2px solid white; 
+            border-right:2px solid white;
+            border-bottom:2px solid white;
+            border-top-left-radius:10px;
+            border-top-right-radius:10px;
+            overflow:hidden;">
+           
+    <table style="width:93%, border-collapse:collapse;">
+    <tr>
+        <td style="text-align:left; padding: 20px; padding-bottom:40px; padding-left:30px; color: #ffffff ;border:none;">Tiempo de preparacion:<br><span style="display:block; margin-top:5px;">30 min</span>
+        </td>
+        
+        <td style="text-align:left; padding: 20px; padding-bottom:40px; padding-right:30px; color: #ffffff; border:none;">Tiempo cocción:<br><span style="display:block; margin-top:5px;">45 min</span>
+        </td>
+          
+        <td style="text-align:center; padding:20px; padding-bottom:20px; padding-right:30px;color: #ffffff; border:none;">Tiempo total:<br><span style="display:block; margin-top:5px;">1h 15 min</span>
+        </td>
+    </tr>
+        
+    <tr>
+        <td style="text-align: left; padding: 20px; padding-bottom:50px; padding-left:30px; color: #ffffff ;border:none;">Porciones:<br><span style="display:block; margin-top:5px;">12</span>
+        </td>
+            
+        <td style="border: none,"></td>
+        <td style="border:none,"></td>
+        
+     </tr>
+            
+    </table>
+    </div>
+    
+    <h2 class="Ingredientes-a">Ingredientes:</h2>
+    <h3>Masa</h3>
+    
+    <ul>
+        
+    <li>4 1/4 tazas de harina de pan (500 gramos)</li>
+    <li>1 cucharadita colmada de levadura seca (3,5 gramos)</li>
+    <li>generosas 1 1/2 cucharadas de aceite de oliva (20 ml), más 2 cucharaditas más para engrasar el recipiente</li>
+    <li>1 1/2 cucharadita redondeada de sal marina o sal kosher ( 10 gramos)</li>
+    
+    </ul>
+    
+    <h3>Pizza</h3>
+    
+    <ul>
+        <li>6 onzas de salchicha italiana</li>
+        <li>1 taza de pimientos dulces y cebollas picados</li>
+        <li>1 1/2 tazas de salsa de pizza preparada</li>
+        <li>2 tazas de queso mozzarella rallado</li>
+        <li>1 1/2 tazas de queso Monterey Jack rallado</li>
+        <li>1/2 taza de queso Parmigiano Reggiano recién rallado</li>
+        <li>1/4 taza de aceite de oliva, dividido</li>
+    
+    
+    </ul>
+    
+    <h2 class="Instrucciones">Instrucciones:</h2>
+    
+    
+    <h3>Paso 1</h3>
+    <p>Para la masa, mezcle la harina, la levadura y el agua con una cuchara de madera hasta que casi toda la harina haya desaparecido y se forme una masa rugosa.</p>
+    
+    <h3>Paso 2</h3>
+    <p>Añade sal y aceite de oliva y sigue mezclando con una cuchara durante unos 3 minutos hasta obtener una masa suave, muy pegajosa y homogénea. Limpia la cuchara y raspa el bol. Tapa y deja reposar 15 minutos.</p>
+   
+    <h3>Paso 3</h3>
+    <p>Realiza la primera serie de pliegues giratorios: dejando la masa en el bol, con la mano húmeda, agárrala por el borde, tira de ella y estírala. Gira el bol unos centímetros y repite el proceso unas 10 o 12 veces. Luego, forma una bola con la masa lo mejor que puedas, volteando la parte más lisa hacia arriba. Cubre el bol y deja reposar la masa durante 15 minutos. Repite este proceso de estirar, doblar y reposar dos veces más.</p>
+    
+    <h3>Paso 4</h3>
+    <p>Transfiera la masa a un recipiente engrasado con tapa, úntela con unas gotas de aceite de oliva y cúbrala. Refrigere durante 24 horas o hasta que doble su volumen.</p>
+    
+    <h3>Paso 5</h3>
+    <p>Transfiera la masa a la encimera. Con las manos húmedas, presione y estire la masa hasta formar un cuadrado de unos 38 cm de ancho. Dóblela por la mitad y luego otra vez por la mitad para formar un rectángulo. Doble el rectángulo en tres partes y dé la vuelta de modo que la costura quede hacia abajo.</p>
 
-   form { 
-      padding:10px; 
-   }
-    input, textarea, select, button {
-      width:95%;
-      max-width:360px;
-    }
+    <h3>Paso 6</h3>
+    <p>Forme una bola uniforme con las manos húmedas. Transfiera la masa a un recipiente engrasado, úntela con unas gotas de aceite de oliva y cúbrala. Refrigere durante 24 horas más o hasta que doble su tamaño.</p>
+    
+    <h3>Paso 7</h3>
+    <p>Saque la masa del refrigerador y déjela reposar sobre la encimera durante 1 hora para que alcance la temperatura ambiente.</p>
+    
+    <h3>Paso 8</h3>
+    <p>Mientras tanto, prepare los ingredientes: Cocine la salchicha en una sartén a fuego medio, revolviendo hasta que esté dorada y desmenuzada, deshaciendo los grumos con una espátula, durante unos 10 minutos. Retire de la sartén y reserve para que se enfríe. Añada los pimientos rojos y las cebollas a la misma sartén y cocine, revolviendo, hasta que empiecen a ablandarse, de 3 a 5 minutos; retire y reserve.</p>
+    
+    <h3>Paso 9</h3>
+    <p>Precalienta el horno a 250 °C (500 °F). Engrasa generosamente una bandeja para hornear con aceite de oliva. Puedes colocar papel vegetal sobre la bandeja para evitar que se pegue.</p>
+    
+    <h3>Paso 10</h3>
+    <p>Transfiera la masa a la bandeja preparada. Con los dedos engrasados, presione la masa hasta formar un rectángulo que casi cubra la bandeja. Si la masa está demasiado elástica para mantenerse en su lugar, déjela reposar un minuto y luego continúe estirando y presionando.</p>
+    
+    <h3>Paso 11</h3>
+    <p>Rocíe una cucharadita de aceite de oliva sobre la masa y pinte para cubrir uniformemente. </p>
+    
+    <h3>Paso 12</h3>
+    <p>Hornee en el horno precalentado hasta que esté dorado, unos 15 minutos. Retire la masa de pizza a una rejilla para que se enfríe a temperatura ambiente, unos 15 minutos. Retire el papel vegetal del molde, si lo usó, y luego vuelva a colocar la masa en el molde.</p>
 
-/* Tablets */
-@media (min-width: 481px) and (max-width: 768px) {
-  h1 { font-size: 40px; }
-    div { margin: 15px; font-size: 16px; }
-}
+    <h3>Paso 13</h3>
+    <p>Unta la masa con la salsa, esparce salchichas y verduras por encima, espolvorea con mozzarella y queso Monterey Jack y termina con una pizca de parmesano.</p>
+    
+    <h3>Paso 14</h3>
+    <p>Hornee en el horno precalentado hasta que los bordes estén bien dorados, unos 15 minutos. Retire a una rejilla; deje enfriar de 10 a 15 minutos, luego corte y sirva.</p>
+  
+    <h2 class="chef">Nota del chef</h2>   
+    <div>    
+    <p>La base de la pizza debe estar dorada y crujiente, pero si no lo está, colócala de nuevo en una bandeja para hornear y caliéntala a fuego medio-alto hasta que oigas que la masa empieza a chisporrotear ligeramente. Gira la bandeja para que toda la base se tueste y 
+    adquiera un tono dorado. Esta es una excelente manera de que la masa quede crujiente, pero ten cuidado de no quemarla demasiado.</p>
+    </div>
+
+    
+    <img src="https://www.allrecipes.com/thmb/gnm-EiMlzutls7qHCc69U3n7MTQ=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8771243_Roman-Style-Pizza_John-Mitzewich_4x3-5156fcec18e446e7acd4195b97e12467.jpg" alt="Pizza al estilo romano" width="440px">
+    
+    <h2 class="titulo-h2">Información nutricional</h2>
+    
+    <div style=
+           "width: 72%;
+        
+            margin-top:0px;
+            
+            text-align:left;
+            padding-top:5px;
+            padding-bottom:0px;
+            padding-right:100px;
+            border-collapse: collapse;
+            border-top:7px solid rgba(255, 165, 0, 0.85) ;
+            border-left:2px solid white; 
+            border-right:2px solid white;
+            border-bottom:2px solid white ;
+            border-top-left-radius:10px;
+            border-top-right-radius:10px;
+            font-size: 14px;
+            overflow:hidden;">
+           
+    <table style="width:95%, border-collapse:collapse;">
+    <tr>
+        <td style="text-align:center; padding: 17px; padding-bottom:40px; padding-right:18px; #ffffff; border:none;">Calorias<br><span style="display:block; margin-top:5px;">346 kcal</span>
+        </td>
+        
+        <td style="text-align:center; padding: 17px; padding-bottom:40px; padding-right:20px;#ffffff; border:none;">Grasas<br><span style="display:block; margin-top:5px;">35gr</span>
+        </td>
+          
+        <td style="text-align:center; padding:17px; padding-bottom:40px; padding-left:20px; #ffffff;border:none;">Carbohidratos<br><span style="display:block; margin-top:5px;">30gr</span>
+        </td>
+            
+        <td style="text-align:center; padding:17px; padding-bottom:40px; padding-left:18px;#ffffff; border:none;">Proteinas<br><span style="display:block; margin-top:5px;">22gr</span>
+        </td>
+            
+    </tr>
+    </table>
+    </div>
+     
+    
+</body>
+    
+</html>
+    
+    
+
+    
+
 
