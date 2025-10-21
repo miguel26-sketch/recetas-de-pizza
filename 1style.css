@@ -100,7 +100,7 @@ font-family: "Bungee Spice", cursive;
 font-weight: 800;
 font-size: 35px;
 margin-bottom: 20px;
-margin-top:60px;
+  margin-top:60px;
 text-transform: uppercase;
 text-shadow: 0 0 1px rgba(255,0,255,0.6);
 }
@@ -150,7 +150,7 @@ transform: scale(1.05);
 
 
 form {
-    width: 90%;
+    width: 95%;
     margin: 20px auto;
 }
 
@@ -162,7 +162,7 @@ form {
   p { font-size:15px; }
   div { margin: 20px; font-size: 14px; }
   video, iframe, img { width: 90%; height: auto; }
-  form {width:auto; height : auto;}
+  form {width:90%; height : auto;}
 }
 
 /* Tablets */
