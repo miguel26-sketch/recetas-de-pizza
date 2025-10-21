@@ -1,158 +1,174 @@
-<!--/*img src="giphy-unscreen.gif" width="200px" height="200px"*/;-->
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<title>RECETAS PIZZA </title>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="1style.css">
-<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-<style>
 body {
+
+margin-top: 60px;
+margin-bottom: 60px;
+margin-left: 60px;
+margin-right:60px;
 background-color: black;
 background-size: cover;
-text-align: center;
-font-family: merienda, sans-serif;
-color: #deff57;
 filter: brightness(1.2) contrast(1.05) saturate(1.10);
-margin-top: 60px;
+}
+
+/* Título principal */
+h1 {
+font-family: "Bungee Spice", cursive;
+font-weight: 800;
+font-size: 53px;
+text-align: center;
+text-transform: uppercase;
+-webkit-font-smoothing: antialiased;
+margin-top: 40px;
+margin-bottom: 20px;
+filter: brightness(1.2) contrast(1.05) saturate(1.10);
+}
+
+.recetasP {
+margin-bottom: 34px;
+}
+
+p {
+color: white;
+font-weight: 700;
+text-align: center;
+padding-top: 10px;
+padding-bottom:15px;
+font-family: merienda, sans-serif;
+font-size: 15px;
+filter: brightness(1.2) contrast(1.05) saturate(1.10);
+}
+
+.pizza{
+ 
+font-family: merienda;
+color:orangered;
+  
+   
+}
+
+div {
+text-align:center;
+margin: 33px;
+font-family: merienda, sans-serif;
+font-weight: 700;
+font-style: italic;
+font-size: 20px;
+filter: brightness(1.2) contrast(1.05) saturate(1.10);
+}
+
+/* Enlaces */
+a {
+font-size:20px;
+text-decoration: none;
+font-weight: 800;
+-webkit-font-smoothing: antialiased;
+font-family: merienda;
+color:#e36d05;
+
+filter: brightness(1.1) contrast(1.1) saturate(1.10);
+}
+
+
+a:hover {
+text-shadow:
+0 0 1px rgba(180, 64, 17, 0.54),
+0 0 1px rgba(180, 64, 17, 0.54);
+transform: scale(1.08);
+}
+
+
+/* Imágenes y vídeos */
+img {
+filter: brightness(0.9) contrast(0.95);
+border-radius: 5px;
+margin-top: 30px;
+}
+
+video {
+margin: 20px 0 10px 0;
+border-radius: 10px;
+}
+
+iframe {
+border: none;
+border-radius: 10px;
+margin: 20px 0 10px 0;
+}
+
+/* Formulario */
+h2 {
+font-family: "Bungee Spice", cursive;
+font-weight: 800;
+font-size: 35px;
+margin-bottom: 20px;
+margin-top:60px;
+text-transform: uppercase;
+text-shadow: 0 0 1px rgba(255,0,255,0.6);
 }
 
 form {
-background: rgba(0,0,0,0.6);
-display: inline-block;
-margin-top:35px;
-padding:30px;
+background: rgba(0, 0, 0, 0.6);
+padding: 30px;
 border-radius: 15px;
-box-shadow: 0 0 20px rgba(255, 134, 28, 0.9);
-max-width: 300px;
-width: 50%;
-
+display: inline-block;
+text-align: left;
 }
 
-input, textarea {
-width: 90%;
-padding: 10px;
-margin: 10px 0;
-border: none;
-border-radius: 8px;
-background: rgba(255,255,255,0.1);
-color: #deff57;
-font-size: 16px;
-}
-
-input::placeholder, textarea::placeholder {
+label {
+display: block;
+margin-top: 15px;
+font-weight: 600;
 color: #fff;
 }
 
-button {
-background: #ff7700;
-color: #310a2e;
+input, textarea {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border-radius: 5px;
 border: none;
-padding: 12px 25px;
-border-radius: 8px;
+font-family: merienda, sans-serif;
+}
+
+button {
+margin-top: 20px;
+padding: 10px 20px;
+font-family: merienda;
 font-size: 16px;
+background-color: #ff5f1f;
 font-weight: bold;
+color: #ff5f1f;
+border: none;
+border-radius: 8px;
 cursor: pointer;
 transition: all 0.3s ease;
 }
 
 button:hover {
-background-color: rgba(255, 119, 0, 0.87);
 transform: scale(1.05);
 }
-</style>
-</head>
-<body>
 
-<h1>Recetas de Pizza </h1>
 
-<video width="370" heigth="150" autoplay muted loop>
-<source src="pizza.mp4" type="video/mp4">
-Tu navegador no soporta el video.
-</video>
 
-<p class="recetasP">Recetas para que las prepares en casa. ¡Adiós repartidor!</p>
-  
-  <div class="pizza">
-  <a href="Pizza-AlEstiloRomano.html">Pizza al estilo romano</a></div>
-  
-  <div class="pizza">
-  <a href="Pizza-de-tocino-alaparrilla.html">Pizza de tocino a la parrilla</a></div>
-  
-  <div class="pizza">
-  <a href="Pizza-lavash.html">Pizza lavash</a></div>
-  
-  <div class="pizza">
-  <a href="Pizza%20de%20pollo%20a%20la%20barbacoa.html">Pizza de pollo a la barbacoa</a></div>
-  
-  <div class="pizza">
-  <a href="Pizza-baguette.html">Pizza baguette</a></div>
-  
-  <div class="pizza">
-  <a href="Pizza-prosciutto">Pizza prosciutto</a></div>
-  
-  <div class="pizza">
-    <a href="Pizza%20de%20sardinas.html">Pizza de sardinas</a></div>
-    
-  <div class="pizza"> 
-  <a href="Pizza%20de%20pollo%20a%20la%20parmesana.html">Pizza de pollo a la parmesana</a></div>
-  
-<!--<div><a href="Pizza-de-tocino-alaparrilla.html">Pizza de tocino a la parrilla</a></div>
-<div><a href="Pizza-lavash.html">Pizzas lavash</a></div>
-<div><a href="Pizza-prosciutto.html">Pizza bianca con Prosciutto</a></div>
-<div><a href="Pizza-baguette.html">Pizza baguette</a></div>
-<div><a href="Pizza%20de%20pollo%20a%20la%20barbacoa.html">Pizza de pollo a la barbacoa</a></div>
-<div><a href="Pizza%20de%20sardinas.html">Pizza de sardinas</a></div>-->
-  
-<!--<a href="Pizza-AlEstiloRomano.html">Pizza al estilo romano</a></div>-->
-<!--<a href="Pizza-de-tocino-alaparrilla.html">Pizza de tocino a la parrilla</a>
-<a href="Pizza-lavash.html">Pizzas lavash</a>
-<a href="Pizza-prosciutto.html">Pizza bianca con Prosciutto</a>
-<a href="Pizza-baguette.html">Pizza baguette</a>
-<a href="Pizza%20de%20pollo%20a%20la%20barbacoa.html">Pizza de pollo a la barbacoa</a>
-<a href="Pizza%20de%20sardinas.html">Pizza de sardinas</a>-->
-  
-     
-<div style="margin-top: 40px;">
-<iframe width="370" height="200"
-src="https://www.youtube.com/embed/crdtrzZj3fo?si=Z_XbwMBX45Unn4YT"
-title="Preparar pizza facil"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-referrerpolicy="strict-origin-when-cross-origin"
-allowfullscreen>
-</iframe>
-  </div>
-  
-<div>
-<iframe width="370" height="200"
-src="https://www.youtube.com/embed/1BYHdXjjufU?si=oZ90MwX6QcVUoIuX"
-title="YouTube video player"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-referrerpolicy="strict-origin-when-cross-origin"
-allowfullscreen>
-</iframe>
-  </div> 
+form {
+    width: 90%;
+    margin: 20px auto;
+}
 
-<h2>Contáctanos</h2>
-<p>¿Tienes una receta o idea para mejorar nuestra web? Escríbenos</p>
+/* Móviles pequeños */
+@media (max-width: 480px) {
+  h1 { font-size: 30px; }
+  a { margin-bottom:10px; font-size: 20px; }
+  h2 { font-size: 30px; }
+  p { font-size:15px; }
+  div { margin: 20px; font-size: 14px; }
+  video, iframe, img { width: 90%; height: auto; }
+  form {width:auto; height : auto;}
+}
 
-<form id="contacto">
-<label for="nombre">Nombre:</label>
-<input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  h1 { font-size: 40px; }
+  div { margin: 15px; font-size: 16px; }
+}
 
-<label for="email">Correo electrónico:</label>
-<input type="email" id="email" name="email" placeholder="Tu correo" required>
 
-<label for="mensaje">Mensaje:</label>
-<textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
-
-<button type="submit">Enviar</button>
-</form>
-
-</body>
-</html>
