@@ -62,18 +62,19 @@ text-decoration: none;
 font-weight: 800;
 -webkit-font-smoothing: antialiased;
 font-family: merienda;
-color:#ff4f00;
-text-shadow: 0 0 1px rgba(255,0,255,0.6);
-transition: all 0.4s ease;
-filter: brightness(1.8) contrast(1.1) saturate(1.10);
+color:#ff3c00;
+
+filter: brightness(1.8) contrast(1.5) saturate(1.10);
 }
+
 
 a:hover {
 text-shadow:
-0 0 6px rgba(236, 0, 255, 0.5),
-0 0 10px rgba(255,0,225,0.3);
+0 0 1px rgba(180, 64, 17, 0.54),
+0 0 1px rgba(180, 64, 17, 0.54);
 transform: scale(1.08);
 }
+
 
 /* Imágenes y vídeos */
 img {
@@ -155,7 +156,7 @@ form {
 /* Móviles pequeños */
 @media (max-width: 480px) {
   h1 { font-size: 30px; }
-  a { font-size: 20px; }
+  a { margin-bottom:10px; font-size: 20px; }
   h2 { font-size: 30px; }
   p { font-size:15px; }
   div { margin: 20px; font-size: 14px; }
@@ -168,4 +169,5 @@ form {
   h1 { font-size: 40px; }
   div { margin: 15px; font-size: 16px; }
 }
+
 
