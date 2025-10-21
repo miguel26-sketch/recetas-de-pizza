@@ -146,13 +146,6 @@ transform: scale(1.05);
 }
 
 
-
-form {
-    width: 90%;
-    margin: auto;
-    max-width:400%;
-}
-
 /* Móviles pequeños */
 @media (max-width: 600px) {
   h1 { font-size: 30px; }
