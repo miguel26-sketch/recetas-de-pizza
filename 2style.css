@@ -154,11 +154,13 @@ img:hover {
       max-width:360px;
     }
 
+
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
   h1 { font-size: 40px; }
   div { margin: 15px; font-size: 16px; }
 }   
+
 
 
 
