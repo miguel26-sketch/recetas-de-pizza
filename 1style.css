@@ -147,14 +147,7 @@ transform: scale(1.05);
 
 /* Móviles pequeños */
 @media (max-width: 600px) {
-  h1 { 
-    font-size: 29px;
-    filter:none;
-    color:papayawhip;
-    font-family:"Bungee Spice", cursive;
-    margin:20px auto;
-    text-align:center;
-  }
+  h1 { font-size: 29px; }
   a { margin-bottom:10px; font-size: 20px; }
   h2 { font-size: 27px; }
   p { font-size:15px; }
