@@ -1,7 +1,7 @@
 body
 {  
     background-color: rgb(0, 0, 0);
-    margin:60px 400px;
+    margin:60px 450px;
     text-align:left;
     font-family: merienda,sans-serif;
     color: #ff8e1c;
@@ -16,19 +16,19 @@ tr span
 }
 
 a.recetas {
-    color:#e36d05;
-    font-weight: 700;
+    font-family: "Bungee Spice", cursive;
+    font-weight: 600;
     text-decoration: none;
-    
-
+    color: papayawhip; /* se ve bien sobre fondo oscuro */
+    text-shadow: 0 0 2px rgba(255,0,255,0.2);
+    transition: all 0.3s ease;
 }
 
 
 
 a{
-   
+   color:white;
    font-family: merienda,sans-serif;
-   color:#e36d05;
    font-size: 12px;
    margin-top:60px;
    filter: brightness(1.2) contrast(1.05) saturate(1.10);
@@ -61,11 +61,11 @@ a{
 }
 
 h1
-{   font-weight: 700;
+{
     font-size:50px;
+    font-family:Bungee Spice, sans-serif;
     margin-top:25px;
     filter: brightness(1.2) contrast(1.05) saturate(1.10);
-    color:#e36d05;
 }
 
 h2
@@ -113,7 +113,13 @@ img
    
     filter: brightness(1.1) contrast(1.05) saturate(1.2);
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
 
+img:hover {
+  transform: scale(1.03);
+  transition: 0.4s ease;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
 }
 
  /* Móviles pequeños */
@@ -125,10 +131,11 @@ img
  
     h1 { 
     font-size: 29px;
+    filter:none;
+    color:papayawhip;
+    font-family:"Bungee Spice", cursive;
     margin:20px auto;
     text-align:center;
-    font-family: merienda;
-    color:#e36d05;
     }
     a { margin-bottom:10px; font-size: 9px; }
     h2 { font-size: 25px; }
@@ -175,5 +182,4 @@ img
   h1 { font-size: 40px; }
   div { margin: 15px; font-size: 16px; }
 }
-
 }
