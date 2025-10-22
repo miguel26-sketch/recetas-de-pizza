@@ -40,6 +40,7 @@ body
 }
 
 .tabla-nutricional {
+    display: block;                     /* permite que overflow funcione en Safari */
     width: 72%;
     margin-top:0;
     text-align: left;
@@ -50,13 +51,16 @@ body
     border-bottom: 2px solid white;
     border-radius: 10px 10px 0 0;
     font-size: 14px;
-    overflow: hidden;
+    overflow-x: auto;                   /* scroll horizontal si hace falta */
+    -webkit-overflow-scrolling: touch;  /* scroll suave en iOS */
 }
 
 .tabla-nutricional table {
-    width: 95%;
-    border-collapse: collapse;
+    width: 100%;         /* ajusta la tabla al contenedor */
+    table-layout: fixed; /* fija columnas, evita que se desborde */
+    border-collapse: collapse; /* esto queda */
 }
+
 
 .tabla-nutricional td {
     text-align: center;
