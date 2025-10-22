@@ -164,7 +164,7 @@ img
     
     th, td{
         font-size: 13px;
-        padding:6px;
+        padding:8px;
         word-wrap: break-word;
         text-align:left;
     }
@@ -175,3 +175,4 @@ img
   h1 { font-size: 40px; }
   div { margin: 15px; font-size: 16px; }
 }
+
