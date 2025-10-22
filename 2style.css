@@ -6,8 +6,7 @@ body
     font-family: merienda,sans-serif;
     color: #ff8e1c;
     font-size: 14px;
-    margin-top:38px;  
-   
+    margin-top:38px;    
 }
 
 tr span
@@ -19,19 +18,13 @@ a.recetas {
     color:#e36d05;
     font-weight: 600;
     text-decoration: none;
-    
-
 }
 
-
-
 a{
-   
    font-family: merienda,sans-serif;
    color:#e36d05;
    font-size: 12px;
-   margin-top:60px;
-   
+   margin-top:60px;  
 }
 
 .titulo-h2
@@ -130,6 +123,7 @@ img
     font-family: merienda;
     color:#e36d05;
     }
+    
     a { margin-bottom:10px; font-size: 9px; }
     h2 { font-size: 25px; }
     p { font-size:14px; }
@@ -167,7 +161,7 @@ img
         padding:8px;
         word-wrap: break-word;
         text-align:left;
-    }
+}
 
 }
 /* Tablets */
