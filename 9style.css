@@ -51,7 +51,7 @@ body
     border-bottom: 2px solid white;
     border-radius: 10px 10px 0 0;
     font-size: 14px;
-    overflow-x: auto;                   /* scroll horizontal si hace falta */
+    overflow-x: hidden; 
     -webkit-overflow-scrolling: touch;  /* scroll suave en iOS */
 }
 
