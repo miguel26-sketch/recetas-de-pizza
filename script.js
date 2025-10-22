@@ -1,48 +1,14 @@
-particlesJS("particles-js", {
-  "particles": {
-    "number": {"value": 50},
-    "size": {"value": 5},
-    "shape": {"type": "circle"},
-    "move": {"speed": 3},
-    "line_linked": {"enable": true}
-  }
-});
-
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Partículas</title>
-    <style>
+<style>
         #particles-js {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            z-index:-1;  
         }
-
-        .contenido {
-            position: relative;
-            text-align: center;
-            margin-top: 100px;
-            color: #fff;
-            font-family: merienda, sans-serif;
-        }
-    </style>
-</head>
-<body>
 
 <div id="particles-js"></div>
-
-<div class="contenido">
-    <h1>Recetas de Pizza</h1>
-    <p>Fase 1 de partículas activada</p>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 
 <script>
 particlesJS("particles-js", {
@@ -55,7 +21,7 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": "#ff00ff"
+      "value": "#ff9400"
     },
     "shape": {
       "type": "circle"
@@ -71,7 +37,7 @@ particlesJS("particles-js", {
     "line_linked": {
       "enable": true,
       "distance": 120,
-      "color": "#ff00ff",
+      "color": "#ff8000",
       "opacity": 0.3,
       "width": 1
     },
@@ -107,6 +73,3 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 </script>
-
-</body>
-</html>
