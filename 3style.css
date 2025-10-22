@@ -152,7 +152,7 @@ img
         word-wrap: break-word;
         text-align:left;
     }
-
+}
 
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
@@ -160,4 +160,3 @@ img
   div { margin: 15px; font-size: 16px; }
 }
 
-}
