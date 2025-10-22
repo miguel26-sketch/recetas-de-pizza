@@ -16,19 +16,19 @@ tr span
 }
 
 a.recetas {
-    font-family: "Bungee Spice", cursive;
-    font-weight: 600;
+    color:#e36d05;
+    font-weight: 700;
     text-decoration: none;
-    color: papayawhip; /* se ve bien sobre fondo oscuro */
-    text-shadow: 0 0 2px rgba(255,0,255,0.2);
-    transition: all 0.3s ease;
+    
+
 }
 
 
 
 a{
-   color:white;
+   
    font-family: merienda,sans-serif;
+   color:#e36d05;
    font-size: 12px;
    margin-top:60px;
    filter: brightness(1.2) contrast(1.05) saturate(1.10);
@@ -63,9 +63,9 @@ a{
 h1
 {
     font-size:50px;
-    font-family:Bungee Spice, sans-serif;
     margin-top:25px;
     filter: brightness(1.2) contrast(1.05) saturate(1.10);
+    color:#e36d05;
 }
 
 h2
@@ -131,9 +131,6 @@ img:hover {
  
     h1 { 
     font-size: 29px;
-    filter:none;
-    color:papayawhip;
-    font-family:"Bungee Spice", cursive;
     margin:20px auto;
     text-align:center;
     }
