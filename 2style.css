@@ -1,7 +1,7 @@
 body
 {  
     background-color: rgb(0, 0, 0);
-    margin:60px 450px;
+    margin:60px 400px;
     text-align:left;
     font-family: merienda,sans-serif;
     color: #ff8e1c;
@@ -182,4 +182,5 @@ img:hover {
   h1 { font-size: 40px; }
   div { margin: 15px; font-size: 16px; }
 }
+
 }
