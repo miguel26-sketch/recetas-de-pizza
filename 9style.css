@@ -40,6 +40,7 @@ body
 }
 
 .tabla-nutricional {
+                   
     width: 72%;
     margin-top:0;
     text-align: left;
@@ -228,5 +229,4 @@ img
   h1 { font-size: 40px; }
   div { margin: 15px; font-size: 16px; }
 }
-
 
