@@ -189,22 +189,13 @@ img
       width: 100%;
       height: auto;
     }
-
-   form { 
-      padding:10px; 
-   }
-    input, textarea, select, button {
-      width:95%;
-      max-width:360px;
-    }
     
-
-    .tabla-receta {
+    .tabla-preparacion {
         width: 100%;
         overflow-x: auto;
     }
 
-    .tabla-receta td {
+    .tabla-preparacion td {
         padding: 10px;
         font-size: 12px;
     }
