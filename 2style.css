@@ -175,8 +175,8 @@ img
     header p, section.instrucciones p { font-size:14px; }
     
     section h2 { font-size: 25px; }
-    .ingredientes h2 { font-size: 25px; }
-    .instrucciones h2 { font-size: 25px; }
+    section.ingredientes h2 { font-size: 25px; }
+    section.instrucciones h2 { font-size: 25px; }
     
     form, p, ul {
       margin-left:auto;
