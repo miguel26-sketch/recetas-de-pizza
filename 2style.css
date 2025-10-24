@@ -185,14 +185,22 @@ img
       text-align: left;
     }
     
-   table, img {
+   video,div, iframe,table, img {
       width: 100%;
       height: auto;
     }
 
+   form { 
+      padding:10px; 
+   }
+    input, textarea, select, button {
+      width:95%;
+      max-width:360px;
+    }
+    
+
     .tabla-receta {
         width: 100%;
-        padding:5px;
         overflow-x: auto;
     }
 
@@ -211,8 +219,8 @@ img
         padding: 10px;
         font-size: 12px;
     }
+    
 }
-
 
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
