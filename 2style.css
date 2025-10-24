@@ -161,7 +161,7 @@ img
  /* Móviles pequeños */
 @media (max-width: 600px) {
     body {
-        max-width:100px;
+        max-width:100%;
         margin: 20px;
         font-size: 14px;
     }  
