@@ -1,0 +1,37 @@
+body {
+  font-family: merienda, sans-serif;
+  margin: 0; 
+ 
+}
+
+header nav {
+  background: rgba(211, 105, 26, 0.94);
+  padding: 10px 0;
+    
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  display:flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+header li a {
+  color: #fffcb2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  transition: color 0.1s;
+}
+
+header li a:hover {
+  color: #000000;
+}
+
+header i {
+  margin-right: 8px;
+  
+}
