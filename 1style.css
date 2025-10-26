@@ -162,6 +162,7 @@ button:hover {
   .lista-pizzas li { font-size: 16px; margin: 15px 0; }
   img, section.videos iframe { width: 90%; height: auto; }
   form { width: 90%; padding: 10px; }
+  nav { width:90%; }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
