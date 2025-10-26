@@ -177,7 +177,7 @@ button:hover {
 /* Responsivo */
 @media (max-width: 600px) {
   header h1 { font-size: 27px; }
-  section.contacto h2 { font-size: 25px; }
+  contacto h2 { font-size: 25px; }
   header p, videos, videos2, p { font-size: 15px; }
   .lista-pizzas li { font-size: 16px; margin: 15px 0; }
   img, section.videos iframe { width: 90%; height: auto; }
