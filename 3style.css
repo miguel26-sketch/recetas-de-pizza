@@ -16,7 +16,8 @@ header ul {
   padding: 5px;
   display:flex;
   justify-content: center;
-  gap: 30px;
+  gap: 25px;
+  flex-direction:row;
 }
 
 header li a {
@@ -58,3 +59,4 @@ header i {
   
 
   
+
