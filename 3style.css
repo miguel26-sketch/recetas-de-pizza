@@ -39,14 +39,16 @@ header i {
 
 @media (max-width: 600px) {
   header ul {
-    flex-direction: column;
-    align-items: center;
-    overflow-x:hidden;
-    gap:10px;
+    display:flex;
+    
+    flex-direction: row;
+    overflow-x:auto;
+    white-space:nowrap;
+    gap:15px;
   }
   
   header li a {
-    font-size:16px;
+    flex: 0 0 auto;
   }
   
   header nav {
@@ -59,4 +61,3 @@ header i {
   
 
   
-
