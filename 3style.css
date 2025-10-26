@@ -40,7 +40,7 @@ header i {
   header-ul {
     flex-direction: column;
     align-items: center;
-    gap:15px;
+    gap:10px;
   }
   
   header-li a {
@@ -48,7 +48,7 @@ header i {
   }
   
   header-nav {
-    padding:15px 0;
+    padding:5px 0;
   }
 }
   
