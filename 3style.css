@@ -35,3 +35,24 @@ header i {
   margin-right: 8px;
   
 }
+
+@media (max-width: 600px) {
+  header-ul {
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+  }
+  
+  header-li a {
+    font-size:16px;
+  }
+  
+  header-nav {
+    padding:15px 0;
+  }
+}
+  
+  
+  
+  
+  
