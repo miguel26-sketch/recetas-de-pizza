@@ -10,7 +10,21 @@ body {
   filter: brightness(1.1) contrast(1.05) saturate(1.10);
 }
 
+#recetas{
+  scroll-margin-top: 50px;
+}
+
+#videos {
+  scroll-margin-top: 99px;
+  
+  }
+
+#contacto {
+  scroll-margin-top:20px;
+}
+
 /* Header */
+
 header h1 {
   font-weight: 700;
   font-size: 50px;
@@ -44,6 +58,7 @@ p {
   filter: brightness(1.3) contrast(1.05) saturate(1.10);
   margin:0;
   margin-top:35px;
+  margin-bottom:80px;
 }
 
 .lista-pizzas li {
@@ -70,7 +85,7 @@ img {
   margin-bottom:25px;
 }
 
-section.videos iframe {
+.videos  {
   border: none;
   border-radius: 10px;
   margin: 30px auto;
@@ -81,8 +96,13 @@ section.videos iframe {
   margin-top:55px;
 }
 
+.videos2 {
+  margin-top:50px;
+  margin-bottom:80px;
+}
+
 /* Contacto */
-section.contacto h2 {
+section h2 {
   color: #e36d05;
   filter: brightness(1.3) contrast(1.05) saturate(1.10);
   font-weight: 700;
@@ -93,7 +113,7 @@ section.contacto h2 {
   text-align: center;
 }
 
-section.contacto p {
+section p {
   font-size: 15px;
   filter: brightness(1.1) contrast(1.05) saturate(1.10);
   margin-bottom: 38px;
@@ -158,7 +178,7 @@ button:hover {
 @media (max-width: 600px) {
   header h1 { font-size: 27px; }
   section.contacto h2 { font-size: 25px; }
-  header p, section.contacto p { font-size: 15px; }
+  header p, videos, videos2, p { font-size: 15px; }
   .lista-pizzas li { font-size: 16px; margin: 15px 0; }
   img, section.videos iframe { width: 90%; height: auto; }
   form { width: 90%; padding: 10px; }
