@@ -205,12 +205,14 @@ button:hover {
   header h1 { font-size: 27px; }
   contacto h2 { font-size: 25px; }
   header p, videos, videos2, p { font-size: 15px; }
-  img, section.videos iframe { width: 90%; height: auto; }
+  figure.img,img, section.videos iframe { width: 90%; height: auto; }
   form { width: 90%; padding: 10px; }
+  div{ width:90%; }
  
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
   header h1 { font-size: 40px; }
   
+
 }
