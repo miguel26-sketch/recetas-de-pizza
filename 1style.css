@@ -10,6 +10,57 @@ body {
   filter: brightness(1.1) contrast(1.05) saturate(1.10);
 }
 
+  
+
+.pizza a{
+  color:#ff991c;
+  font-weight:700;
+ margin-top:20px;
+  margin-bottom:20px;
+  display:block;
+  font-size:18px;
+  
+}
+
+.pizza a:hover {
+  
+  transform: scale(1.12);
+}
+
+.fila {
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom:80px;
+  gap:80px;
+}
+
+
+
+.pizza {
+  border:solid 1px darkorange;
+  text-align:center;
+  border-radius:5px;
+  background-color: black;
+  display:block;
+  
+}
+
+.pizza img {
+  width:310px;
+  filter: brightness(0.85) contrast(1.10) saturate(1.0);
+  display: block;
+  margin:0 auto;
+  margin-top:5px;
+  
+}
+.pizza h3 
+{
+  margin-bottom:20px;
+  color:darkorange;
+  
+}
+
 #recetas{
   scroll-margin-top: 50px;
 }
@@ -37,52 +88,27 @@ header h1 {
 /* Texto descriptivo */
 p {
   font-weight:600;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 18px;
   filter: brightness(1.1) contrast(1.05) saturate(1.10);
 }
 
-/* Lista de pizzas */
-
-.lista-pizzas {
-  padding:0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* centra los <li> dentro del ul */
-  font-family: merienda, sans-serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 20px;
-  filter: brightness(1.3) contrast(1.05) saturate(1.10);
-  margin:0;
-  margin-top:35px;
-  margin-bottom:80px;
-}
-
-.lista-pizzas li {
-  margin: 15px 0;
-}
-
-.lista-pizzas a {
-  color: #e36d05;
-  text-decoration: none;
-  font-weight: 800;
-  transition: all 0.3s ease;
-}
-
-.lista-pizzas a:hover {
-  text-shadow: 0 0 1px rgba(180, 64, 17, 0.54), 0 0 1px rgba(180, 64, 17, 0.54);
-  transform: scale(1.08);
-}
-
 /* Imágenes y vídeos */
-img {
+figure img{
   filter: brightness(1.1) contrast(1.05) saturate(1.10);
   border-radius: 5px;
   margin-top: 30px;
   margin-bottom:25px;
+  width:475px;
+}
+
+img{
+   filter: brightness(1.1) contrast(1.05) saturate(1.10);
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom:25px;
+  width:175px;
 }
 
 .videos  {
@@ -114,7 +140,7 @@ section h2 {
 }
 
 section p {
-  font-size: 15px;
+  font-size: 16px;
   filter: brightness(1.1) contrast(1.05) saturate(1.10);
   margin-bottom: 38px;
   font-weight: 600;
@@ -167,11 +193,11 @@ button {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  
 }
 
 button:hover {
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
 /* Responsivo */
@@ -179,7 +205,6 @@ button:hover {
   header h1 { font-size: 27px; }
   contacto h2 { font-size: 25px; }
   header p, videos, videos2, p { font-size: 15px; }
-  .lista-pizzas li { font-size: 16px; margin: 15px 0; }
   img, section.videos iframe { width: 90%; height: auto; }
   form { width: 90%; padding: 10px; }
  
@@ -187,5 +212,5 @@ button:hover {
 
 @media (min-width: 481px) and (max-width: 768px) {
   header h1 { font-size: 40px; }
-  .lista-pizzas li { font-size: 18px; margin: 18px 0; }
+  
 }
